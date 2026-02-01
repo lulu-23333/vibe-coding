@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lulu — AI编程之路</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-v2.css">
+</head>
+<body>
+    <!-- 导航 -->
+    <nav class="nav">
+        <div class="nav-left">LULU</div>
+        <div class="nav-right">
+            <a href="#project" class="nav-link">项目</a>
+            <a href="#journey" class="nav-link">历程</a>
+            <a href="#chat" class="nav-link">对话</a>
+        </div>
+    </nav>
+
+    <!-- Hero区域 -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-label">WAYTOAGI · 结业作品</div>
+            <h1 class="hero-title">
+                <span class="title-line">1个<span class="title-accent-inline">编程小白</span>的<span class="title-accent-inline">AI Coding之旅</span></span>
+            </h1>
+            <p class="hero-subtitle">一个运营经理的编程探索</p>
+            <div class="hero-actions">
+                <a href="#project" class="btn btn-primary">
+                    <span>开始探索</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 17L12 12M12 12L7 7M12 12H3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <a href="#chat" class="btn btn-secondary">和AI分身聊天</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <span class="card-icon">📚</span>
+                <span class="card-text">阅读笔记</span>
+            </div>
+            <div class="floating-card card-2">
+                <span class="card-icon">🤖</span>
+                <span class="card-text">AI编程</span>
+            </div>
+            <div class="floating-card card-3">
+                <span class="card-icon">💡</span>
+                <span class="card-text">产品思维</span>
+            </div>
+            <div class="floating-card card-4">
+                <span class="card-icon">🎯</span>
+                <span class="card-text">MVP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目路演 -->
+    <section id="project" class="project-section">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">AI Coding项目初尝试<br><span class="title-accent">阅读笔记助手</span></h2>
+        </div>
+
+        <!-- 痛点 -->
+        <div class="pain-points">
+            <div class="pain-point">
+                <div class="pain-number">01</div>
+                <div class="pain-content">
+                    <h3>阅读笔记混乱</h3>
+                    <div class="pain-image">
+                        <img src="/Users/lulu/Downloads/未命名(56)/稿定设计-1.png" alt="阅读笔记混乱">
+                    </div>
+                    <p>读书记录分散在各处，无法形成知识体系</p>
+                </div>
+            </div>
+            <div class="pain-point">
+                <div class="pain-number">02</div>
+                <div class="pain-content">
+                    <h3>灵感转瞬即逝</h3>
+                    <div class="pain-image">
+                        <img src="/Users/lulu/Downloads/未命名(56)/稿定设计-2.png" alt="灵感转瞬即逝">
+                    </div>
+                    <p>阅读时的感悟没有及时记录，过后就忘了</p>
+                </div>
+            </div>
+            <div class="pain-point">
+                <div class="pain-number">03</div>
+                <div class="pain-content">
+                    <h3>知识无法连接</h3>
+                    <div class="pain-image">
+                        <img src="/Users/lulu/Downloads/未命名(56)/稿定设计-3.png" alt="知识无法连接">
+                    </div>
+                    <p>笔记之间缺乏关联，无法形成知识网络</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 演化过程 -->
+        <div class="evolution">
+            <div class="evolution-header">
+                <h3>方案演化</h3>
+                <p>从想法到产品的六次迭代</p>
+            </div>
+            <div class="evolution-timeline">
+                <div class="evo-item">
+                    <span class="evo-number">01</span>
+                    <div class="evo-content">
+                        <h4>手工记录</h4>
+                        <p>用Excel表格记录 → 效率低，容易放弃</p>
+                    </div>
+                </div>
+                <div class="evo-item">
+                    <span class="evo-number">02</span>
+                    <div class="evo-content">
+                        <h4>模板化笔记</h4>
+                        <p>用Notion模板 → 结构化好，但不智能</p>
+                    </div>
+                </div>
+                <div class="evo-item">
+                    <span class="evo-number">03</span>
+                    <div class="evo-content">
+                        <h4>AI辅助记录</h4>
+                        <p>用ChatGPT帮忙 → 需要反复提示词</p>
+                    </div>
+                </div>
+                <div class="evo-item">
+                    <span class="evo-number">04</span>
+                    <div class="evo-content">
+                        <h4>专用Prompt</h4>
+                        <p>优化Prompt体验 → 手动粘贴太麻烦</p>
+                    </div>
+                </div>
+                <div class="evo-item evo-highlight">
+                    <span class="evo-number">05✦</span>
+                    <div class="evo-content">
+                        <h4>Enter · 低代码平台尝试</h4>
+                        <p>用Enter构建 → AI配置环节失败，找不到错误 <a href="https://43f09d2c01274de69ef66b09d49d2bce.prod.enter.pro" target="_blank" style="color: inherit; text-decoration: underline;">查看Enter尝试</a></p>
+                    </div>
+                </div>
+                <div class="evo-item evo-highlight">
+                    <span class="evo-number">06✦</span>
+                    <div class="evo-content">
+                        <h4>秒哒 · AI辅助编程</h4>
+                        <p>用Claude Code成功，完成产品开发</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 秒哒产品展示 -->
+        <div class="product-showcase-embedded">
+            <div class="showcase-header">
+                <h3>🎉 成果：秒哒 - 阅读笔记助手</h3>
+                <p>经过六次迭代，最终用Claude Code成功实现</p>
+            </div>
+            <div class="showcase-iframe">
+                <iframe src="https://app-8x97ak3y3sap.appmiaoda.com"></iframe>
+            </div>
+            <div class="showcase-actions">
+                <a href="https://app-8x97ak3y3sap.appmiaoda.com" target="_blank" class="btn btn-primary">打开秒哒体验</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 发现生活中的小工具 -->
+    <section id="tools" class="tools-section">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">发现生活中的小工具<br><span class="title-accent">用AI解决实际问题</span></h2>
+        </div>
+
+        <div class="tools-grid">
+            <!-- 痛点一：合同自动生成 -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <span class="tool-icon">📄</span>
+                    <h3>痛点一：合同重复制作</h3>
+                </div>
+                <div class="tool-content">
+                    <div class="problem">
+                        <h4>问题</h4>
+                        <p>一个相同的合同每天都要重复去做，要改的信息其实很少：</p>
+                        <ul>
+                            <li>甲方信息（公司名、联系人、电话、法定代表人）</li>
+                            <li>接口信息（格式：场景,流程,接口名称,方向,金额）</li>
+                        </ul>
+                    </div>
+                    <div class="solution">
+                        <h4>💡 解决方案</h4>
+                        <p>让Claude Code帮自己写了一个自动生成的合同脚本，现在直接把需要修改的内容发给Claude Code就可以自动生成合同</p>
+                        <div class="solution-tag">AI辅助编程</div>
+                        <div class="solution-tag">效率提升</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 痛点二：PDA打印机APP二维码 -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <span class="tool-icon">📱</span>
+                    <h3>痛点二：PDA打印机APP下载</h3>
+                </div>
+                <div class="tool-content">
+                    <div class="problem">
+                        <h4>问题</h4>
+                        <p>帮客户安装的PDA上经常需要下载一款打印机APP，但是应用商店搜索不到。每日都需要输入链接下载，耗时。目前可用的草料二维码平台需要开会员才能上传app生成二维码。</p>
+                    </div>
+                    <div class="solution">
+                        <h4>💡 解决方案</h4>
+                        <p>让秒答写了一个网页页面，上传APP自动生成二维码页面，方便快速下载</p>
+                        <div class="solution-tag">实用工具</div>
+                        <div class="solution-tag">客户服务</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 个人网站 -->
+    <section id="website" class="website-section">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">设计出属于自己的个人网站<br><span class="title-accent">以及完成部署</span></h2>
+        </div>
+
+        <div class="website-showcase">
+            <div class="website-content">
+                <h3>我的个人网站</h3>
+                <p>在AI的辅助下，从零开始设计并部署了个人网站，展示了我的学习历程和作品集</p>
+                <div class="website-features">
+                    <div class="feature-item">
+                        <span class="feature-number">01</span>
+                        <p>AI辅助设计，快速实现创意</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">02</span>
+                        <p>Vercel一键部署，公网可访问</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">03</span>
+                        <p>持续优化，不断完善功能</p>
+                    </div>
+                </div>
+                <a href="https://lulu-website-seven.vercel.app/" target="_blank" class="btn btn-primary">访问我的个人网站</a>
+            </div>
+            <div class="website-preview">
+                <iframe src="https://lulu-website-seven.vercel.app/"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学习复盘 -->
+    <section id="journey" class="journey-section">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">总结与复盘<br><span class="title-accent">从不会代码到AI编程</span></h2>
+        </div>
+
+        <div class="journey-grid">
+            <!-- 心得 -->
+            <div class="journey-card">
+                <div class="card-header">
+                    <span class="card-icon">💭</span>
+                    <h3>AI编程心得</h3>
+                </div>
+                <div class="card-content">
+                    <p>作为一个完全不会写代码的产品经理，通过训练营真正体验了"Vibe Coding"的魅力：</p>
+                    <ul>
+                        <li><strong>该踩的坑都踩了一遍</strong> - 从环境配置到API调用</li>
+                        <li><strong>AI是我的编程搭档</strong> - Claude Code帮我生成代码、调试问题</li>
+                        <li><strong>Prompt调优是关键</strong> - 不同Prompt，效果天差地别</li>
+                        <li><strong>小步快跑，快速迭代</strong> - 先让基本功能跑起来</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 学习路径 -->
+            <div class="journey-card">
+                <div class="card-header">
+                    <span class="card-icon">🗺️</span>
+                    <h3>学习路径建议</h3>
+                </div>
+                <div class="card-content">
+                    <div class="path-steps">
+                        <div class="path-step">
+                            <span>01</span>
+                            <p>从具体痛点出发，不要为了学技术而学技术</p>
+                        </div>
+                        <div class="path-step">
+                            <span>02</span>
+                            <p>设计最小可行产品（MVP），先做最简单的版本</p>
+                        </div>
+                        <div class="path-step">
+                            <span>03</span>
+                            <p>选择合适的工具：Claude Code + Vercel</p>
+                        </div>
+                        <div class="path-step">
+                            <span>04</span>
+                            <p>分阶段实现，不要一次做完</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 技术收获 -->
+            <div class="journey-card">
+                <div class="card-header">
+                    <span class="card-icon">🛠️</span>
+                    <h3>技术收获</h3>
+                </div>
+                <div class="card-content">
+                    <div class="skill-cloud">
+                        <span class="skill">HTML/CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Vercel</span>
+                        <span class="skill">DeepSeek</span>
+                        <span class="skill">Prompt工程</span>
+                        <span class="skill">Claude Code</span>
+                        <span class="skill">Git</span>
+                        <span class="skill">API集成</span>
+                    </div>
+                    <p class="highlight-text">最大的收获：学会了用AI辅助编程，让零编程基础的产品经理也能独立完成产品开发！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI对话 -->
+    <section id="chat" class="chat-section">
+        <div class="section-header">
+            <span class="section-number">05</span>
+            <h2 class="section-title">和我的AI分身聊一聊<br><span class="title-accent">聊聊我的AI编程之旅</span></h2>
+        </div>
+
+        <p class="chat-intro">基于我的经历和知识训练，可以回答关于项目、学习、阅读笔记等问题</p>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-content">
+                        <p>你好！我是Lulu的AI数字分身。很高兴认识你！</p>
+                        <p>你可以问我关于：</p>
+                        <ul>
+                            <li>秒哒产品的设计思路</li>
+                            <li>AI编程学习心得</li>
+                            <li>阅读笔记管理方法</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" class="chat-input" placeholder="输入你的问题...">
+                <button id="sendBtn" class="chat-send">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2025 Lulu · WaytoAGI训练营</p>
+        <p class="footer-note">用 ❤️ 和 AI 辅助编程完成</p>
+    </footer>
+
+    <script src="script-v2.js"></script>
+</body>
+</html>
