@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "ZHIPU_API_KEY": {
+      "description": "智谱AI API密钥"
+    }
+  }
+}
