@@ -3,10 +3,5 @@
     "api/*.js": {
       "maxDuration": 10
     }
-  },
-  "env": {
-    "DASHSCOPE_API_KEY": {
-      "description": "阿里云百炼API密钥"
-    }
   }
 }
