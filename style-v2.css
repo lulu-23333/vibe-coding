@@ -1488,6 +1488,41 @@ section {
         font-size: 1.5rem;
     }
 
+    .website-content > p {
+        font-size: 1rem;
+    }
+
+    .website-features {
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-item {
+        gap: 0.75rem;
+    }
+
+    .feature-number {
+        width: 32px;
+        height: 32px;
+        font-size: 0.85rem;
+    }
+
+    .feature-item p {
+        font-size: 0.95rem;
+    }
+
+    .website-notice {
+        font-size: 0.85rem;
+        padding: 0.6rem 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .website-content .btn {
+        width: 100%;
+        padding: 0.9rem 1.5rem;
+        font-size: 1rem;
+    }
+
     .website-preview {
         height: 350px;
     }
@@ -1580,6 +1615,28 @@ section {
     section {
         padding: 2.5rem 1rem;
     }
+
+    .website-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .website-content > p {
+        font-size: 0.95rem;
+    }
+
+    .website-preview {
+        height: 280px;
+    }
+
+    .feature-number {
+        width: 28px;
+        height: 28px;
+        font-size: 0.75rem;
+    }
+
+    .feature-item p {
+        font-size: 0.9rem;
+    }
 }
 
 /* 横屏手机优化 */
@@ -1595,5 +1652,22 @@ section {
 
     .chat-messages {
         height: 250px;
+    }
+
+    .website-preview {
+        height: 300px;
+    }
+
+    .website-content h3 {
+        font-size: 1.6rem;
+    }
+
+    .website-features {
+        gap: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .feature-item {
+        gap: 0.6rem;
     }
 }
